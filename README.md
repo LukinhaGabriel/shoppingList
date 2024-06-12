@@ -4,6 +4,10 @@
 Criar uma lista de compra usando a linguagem de programação TypeScript sem
 utilizar frameworks.
 
+### Referência Utilizadas no projeto
+- [Vinicios Neves - TypeScript com JavaScript Vanilla. Artigo da Alura, 2023](https://www.alura.com.br/artigos/typescript-javascript-vanilla)
+- [ Cassie Evans - CodePen Home To-do list](https://codepen.io/cassie-codes/pen/pYwXwb)
+
 ### Funcionalidades
 
 - [x] Adicionar itens: Permite adicionar novos itens à lista de compras.
