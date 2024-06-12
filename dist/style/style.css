@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    font-family: 'Gochi Hand', cursive;
+    font-size: 130%;
+    text-align: center;
+    color: hsl(198, 1%, 29%);
+    background-color: #3A86FF;
+    padding: 0.25rem;
+    
+}
+
+@media only screen and (min-width: 500px) {
+    body{
+        min-height: 100vh;
+        padding: 1rem;
+    }
+    .container{
+        max-width: 500px;
+    }
+}
+
+.container{
+    width: 100%;
+    height: auto;
+
+    
+    min-width: 250px;
+    min-height: 500px;
+
+    background:  #f1f5f8;;
+    background-image: radial-gradient(#bfc0c1 7.2%, 
+    transparent 0);
+    background-size: 25px 25px;
+
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    
+    padding: 1rem;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.heading__title {
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: #FFBE0B;
+    font-size: 1.5rem;
+}
+
+.heading__img {
+    width: 20%;
+  }
+
+
+.form__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    line-height: 100%;
+}
+
+.form__input {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius:3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #3A86FF;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1rem;
+    color: hsla(260, 2%, 25%, 0.7);
+    width: 70%;
+    margin-bottom: 36px;
+}
+
+.form__input:focus{
+    outline: none;
+    border: solid 3px #3A86FF;
+}
+
+@media only screen and (min-width: 500px) {
+    .form__input {
+       width: 60%;
+     }
+}
+
+.button{
+    background-color: #f1f5f8;
+    color: hsl(198, 1%, 29%);
+    font-family: 'Gochi Hand', cursive;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+.button-remove{
+    background-color: #df2b13;
+    color: #f1f5f8;
+    margin-left: 16px;
+}
+
+.list-group{
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   padding: 1rem;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li p{
+    text-align: left;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow-x: auto; 
+}
+
+

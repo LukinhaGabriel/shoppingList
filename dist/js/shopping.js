@@ -55,17 +55,17 @@ function renderItems() {
             renderItems();
         });
         const $btnRemove = document.createElement("button");
-        $btnRemove.className = "btn btn-danger btn-sm float-right";
+        $btnRemove.className = "button button-remove";
         $btnRemove.type = "button";
         $btnRemove.textContent = "X";
-        $itemsList.appendChild($btnRemove);
+        $li.appendChild($btnRemove);
         $btnRemove.addEventListener("click", () => {
             removeItem(item.id);
             renderItems();
         });
     });
 }
-$itemForm.addEventListener("click", (event) => {
+$itemForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const nome = $inputItem.value.trim();
     if (nome) {
