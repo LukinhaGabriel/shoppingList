@@ -41,6 +41,9 @@ utilizar frameworks.
 Navegue até o diretório do projeto.
 Abra o arquivo index.html diretamente no seu navegador.
 
+## Imagem do Projeto
+<img src="./Design/shoppinglist.png">
+
 ## Lucas Gabriel Moya
 
 - Website - [https://lucasgabrielmoya-nu.vercel.app/](https://lucasgabrielmoya-nu.vercel.app/)
