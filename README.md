@@ -46,7 +46,7 @@ Navegue até o diretório do projeto.
 Abra o arquivo index.html diretamente no seu navegador.
 
 ## Imagem do Projeto
-<img src="./Design/shoppinglist.png">
+<img src="./design/shoppinglist.png">
 
 ## Lucas Gabriel Moya
 
